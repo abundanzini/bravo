@@ -1,6 +1,7 @@
 from turtle import *
 t = Turtle()
 screen = t.getscreen()
+<<<<<<< HEAD
 t.fillcolor("black")
 t.begin_fill()
 t.circle(20)
@@ -37,5 +38,9 @@ t.right(90)
 t.forward(30)
 t.end_fill()
 t.ht()
+=======
+t.home()
+t.dot()
+>>>>>>> upstream/master
 
 screen.exitonclick()
